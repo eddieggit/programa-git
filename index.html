@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--esta etiqueta indica la versión de html a utilizar-->
+<html lang="es">
+<!--este tipo de atributo lang indica cual va a ser el lenguaje de la página-->
+  <head>
+    <title>Los Huevos de Pascua De Eddie</title>
+    <!--la interfaz siempre se va a dividir en la etiqueta head y body-->
+    <link href="style.css" rel="stylesheet">
+    <!--hay selector universal el cual cambia todo el texto * {color #}-->
+    <!--si hay varias etiquetas con la mismo tamaño se realiza asi: h2,h3,h4{font size: 25 px;}-->
+    <!--google fonts es una página para cambiar el tipo de letra-->
+    <!--cuando es ID en el archivo css debe comerzar con el simbolo # -->
+    <!-- el margen da una distancia de la imagen con respecto al contenedor-->
+    <!--los atributos para css se deben de escribir de la siguiente forma-->
+    <!--font weight se utliza para cambiar el grosor de la letra = bold negrilla-->
+    <!-- selector atributo comienza con #, cuando es un selector clase comienza con punto (.)-->
+    <!--el codigo !important prioriza cualquier css de otro-->
+    <script src="code.js"></script>
+    <!--el atributo defer se utiliza cuando se quiere que el archivo externo que acompaña al "src" se 
+    ejecute despues del analisis de la pagina (<script src="archivo.js" defer></script>)-->
+
+  </head>
+  <body>
+    <h1>Eddie The Best</h1>
+    <!--este estilo de css es en linea-->
+    <!--la etiqueta H1 al H6 se utliza para los titulos de la página -->
+    <main>
+      <h2>Los huevos de pascua de Eddie</h2>
+      <!--este es un comentario-->
+      <a href="#001">Párrafo 1</a>
+      <!--la etiqueta <a> se utiliza para crear un enlace-->
+      <div>
+        <p> Canal de <strong>YOUTUBE</strong> dedicado a las <strong><em>artes visuales.</em></strong></p>
+        <!--la etiqueta <p> origina que se utilice un párrafo -->
+        <!--el etiqueta <strong> origina que la palabra se indique en negrilla-->
+        <!--la etiqueta <em> origina que la palabra este en cursiva-->
+        <p>Destructor del imperio en fichas <a href="https://tiendalego.com.co/collections/
+        tema-star-wars/products/bombardero-tie-75347" target="_blank" rel="noopener noreferrer">lego</a></p>
+        <!--el atributo href se utiliza para indicar el enlace hacia donde va dirigido el enlace-->
+        <!--el atributo target tiene con función indicar que el enlace se abra en otra pestaña-->
+        <a href="https://tiendalego.com.co/collections/tema-star-wars/products/bombardero-tie-75347">
+        <img src="https://tiendalego.com.co/cdn/shop/products/75347_711x711.jpg?v=1681330894"
+        alt="Una gran nave imperial que surca el espacio"></a>
+        <!--la etiqueta <img> se utiliza para agregar una imagen-->
+        <!--el atributo src indica la fuente de la imagen-->
+
+        <ul class="padme">
+         <li>Destructor</li>
+         <li><s>Estrella de la muerte</s></li>
+        </ul>
+        <!--la etiqueta <ul> se utiliza para crear una lista en desorden-->
+        <!--la etiqueta <li> se utiliza para identificar los elementos de la lista-->
+
+        <ol class="padme">
+          <li> La republica</li>
+          <li> La orden jedi</li>
+        </ol>
+        <!--la etiqueta <ol> se utiliza para crear una lista en orden-->
+      </div>
+      <hr>
+      <!--esta etiqueta se utiliza para crear una linea horizontal-->
+      
+      <h3 id="001">Párrafo 1</h3>
+
+      <p>Un videojuego o juego de video es un software o juego electrónico en el que uno o más 
+      jugadores interactúan por medio de un controlador, con un dispositivo electrónico que muestra 
+      imágenes de video.Este dispositivo, conocido genéricamente como «plataforma», puede ser 
+      una computadora, una máquina de arcade, una consola de videojuegos o un dispositivo portátil, 
+      como por ejemplo un teléfono móvil, teléfono inteligente, tableta o una consola de 
+      videojuegos portátil. La industria de los videojuegos es un sector en constante crecimiento 
+      y se ha convertido en una forma de entretenimiento muy popular a nivel mundial.</p>
+
+      <form action="/Diagrama sin título.drawio">
+        <label for="Imperio"><input name="Imperio-Republica" value="Imperio" id="Imperio"type="radio">Imperio</label>
+
+        <br>
+        <!--esta etiqueta se utiliza para salto de linea-->
+
+        <label for="Republica"><input name="Imperio-Republica" value="Republica" id="Republica"type="radio" checked>Republica</label>
+        <!--la etiqueta label tiene como función que la palabra sea también clickeable ( palabra
+        que acompaña el radio)-->
+        <!--la etiqueta input origina que se cree un recuadro para pedir información del usuario-->
+        
+        </label>los precios de los juguetes varian según su tamaño y disponibilidad en la bodega, por enden se deben efectuar
+          inventario todos los dias</label>
+
+        <br><!--esta etiqueta es para salto de página-->
+
+        <label for="369"><input name="oscuridad"id="369" type="checkbox" checked>Dark vader</label>
+        <label for="258"><input name="luz" id="258" type="checkbox">Obi wan kenoby</label>
+        <label for="147"><input name="oscuridad" id="147" type="checkbox">Anakin skywalker</label>
+
+        <!--El tipo checkbox se utiliza para crear una lista de opciones multiples-->
+        <!-- el atributo checked se utiliza para que una de las opciones ya se marcada-->
+
+
+        <input type="text" placeholder="Tipo de Nave favorita" required>
+        <button type="submit">Enviar</button>
+        <!--la etiqueta tipo button tiene como funcionalidad crear un boton-->
+      </form>
+      <!--la etiqueta <form> se utiliza para realizar una asociación de elementos-->
+    </main>
+    <footer>
+      <p><small>Derechos de autor - Huevos de pascua de Eddie</small></p>
+    </footer> 
+    <!--la etiqueta <footer> para creación de pie de página-->
+    <!--la etiqueta <small> se utiliza para disminuir el tamaño de la letra-->
+  </body>
+  <!--el atributo span se utiliza con el fin de crear un contenedor en linea-->
+  <!--la etiqueta <pre> se utliza para pasar un texto prediseñado tal y cual como esta-->
+</html>
